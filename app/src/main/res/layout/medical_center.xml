@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/infocenter"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="Health Care Lists"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           android:src="@drawable/addicon"
+            android:id="@+id/ivAddMedicalCenter"
+            />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/healthCareList"
+        android:layout_width="fill_parent"
+        android:divider="@color/infocenter"
+        android:dividerHeight="2dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+    </ListView>
+</LinearLayout>

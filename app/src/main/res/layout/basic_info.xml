@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Personal Information"
+    android:gravity="center"
+    android:textSize="22sp"
+    android:textColor="#fff"
+    android:background="#000"
+    android:padding="5dp"
+    android:layout_marginBottom="10dp"/>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginBottom="20dp">
+
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#000"
+        android:layout_weight="12"
+        android:gravity="start"
+        android:textAlignment="gravity"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+
+        android:layout_weight="50"
+        android:gravity="start"
+        android:textAlignment="gravity"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birth Date"
+            android:textColor="#000"
+            android:layout_weight="6"
+            android:textSize="18sp"
+            android:gravity="start"
+            android:textAlignment="gravity"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNBirthDate"
+            android:textColor="#000"
+
+            android:layout_weight="55"
+            android:textSize="18sp"
+            android:gravity="start"
+            android:textAlignment="gravity"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textColor="#000"
+            android:layout_weight="10"
+            android:textSize="18sp"
+            android:gravity="start"
+            android:textAlignment="gravity"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvGender"
+
+            android:layout_weight="50"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:gravity="start"
+            android:textAlignment="gravity"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relation"
+            android:textColor="#000"
+            android:layout_weight="10"
+            android:textSize="18sp"
+            android:gravity="start"
+            android:textAlignment="gravity"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvRelation"
+            android:textColor="#000"
+            android:layout_weight="60"
+            android:textSize="18sp"
+
+            android:gravity="start"
+            android:textAlignment="gravity"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#000"
+            android:layout_weight="10"
+            android:textSize="18sp"
+            android:gravity="start"
+            android:textAlignment="gravity"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEmail"
+            android:textSize="18sp"
+            android:layout_weight="47"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:gravity="start"
+            android:textAlignment="gravity"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile"
+            android:layout_weight="10"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:gravity="start"
+            android:textAlignment="gravity"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMobile"
+            android:textColor="#000"
+            android:layout_weight="48"
+            android:textSize="18sp"
+
+            android:gravity="start"
+            android:textAlignment="gravity"/>
+    </LinearLayout>
+</LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Info"
+        android:id="@+id/btUpdate"
+        android:textColor="#fff"
+        android:background="#000"
+        android:textSize="18sp"/>
+
+</LinearLayout>

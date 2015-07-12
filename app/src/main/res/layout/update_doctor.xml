@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Doctor"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="#000"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter doctor name"
+            android:id="@+id/etDoctorName"
+            android:layout_marginLeft="30dp"
+            android:inputType="textPersonName"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile :"
+            />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter mobile"
+            android:id="@+id/etDoctorMobile"
+            android:layout_marginLeft="30dp"
+            android:inputType="phone"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+            />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter doctor email"
+            android:id="@+id/etDoctorEmail"
+            android:layout_marginLeft="35dp"
+            android:inputType="textEmailAddress"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+
+            android:layout_gravity="top"
+            android:gravity="start"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter doctor address"
+            android:id="@+id/etDoctorAddress"
+            android:singleLine="false"
+            android:minLines="4"
+            android:layout_marginLeft="30dp"
+            android:gravity="start"
+            android:textAlignment="gravity"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btNewDoctorSave"
+        android:background="#000"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btNewDoctorCancel"
+            android:background="#000"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+</LinearLayout>

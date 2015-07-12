@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="HealthCare Center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@color/infocenter"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+           />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter doctor name"
+            android:id="@+id/etHealthCareName"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="10dp"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile :"
+          />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter mobile"
+            android:id="@+id/etHealthCareMobile"
+            android:inputType="phone"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+           />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter doctor email"
+            android:id="@+id/etHealthCareEmail"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="10dp"
+          />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:layout_gravity="top"
+            android:gravity="start"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter health care address"
+            android:id="@+id/etHealthCareAddress"
+            android:singleLine="false"
+            android:minLines="4"
+            android:layout_marginLeft="5dp"
+            android:gravity="start"
+            android:textAlignment="gravity"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btHealthCareSave"
+
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@color/infocenter"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btUpdateHealthCareCancel"
+
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@color/infocenter"/>
+    </LinearLayout>
+</LinearLayout>

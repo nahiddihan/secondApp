@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jasim.mobileappdevelop.icare" >
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
+        </activity>
+        <activity
+            android:name=".AddNewProfile"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".BasicInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".MedicalInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".GrowthStatus"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".Doctor"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".AddDoctor"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".DoctorInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".MedicalCenter"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".MedicalCenterInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".AddMedicalCenter"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".Vaccine"
+            android:label="@string/app_name" >
+
+        </activity>
+
+        <activity
+            android:name=".Dose"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".Appointment"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".AddAppointment"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+        android:name=".AppointmentDetails"
+        android:label="@string/app_name" >
+
+    </activity>
+        <activity
+            android:name=".Diet"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".UpdateInfo"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".UpdateDoctor"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".UpdateHealthCare"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".Notes"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".NotePage"
+            android:label="@string/app_name" >
+
+        </activity>
+    </application>
+
+</manifest>

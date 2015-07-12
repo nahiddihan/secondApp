@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0033">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes"
+            android:layout_weight="60"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:id="@+id/tvDoctorListHeader"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:src="@drawable/addicon"
+            android:layout_weight="20"
+            android:id="@+id/btAddNote"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noteList"
+            android:divider="#FF0033"
+            android:dividerHeight="2dp">
+
+        </ListView>
+
+    </LinearLayout>
+</LinearLayout>

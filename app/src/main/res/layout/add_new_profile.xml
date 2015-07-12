@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Profile"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:background="#990000"
+        android:textColor="#fff"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_marginTop="5dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+
+
+       />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etName"
+        android:textColor="@color/black"
+
+        android:padding="5dp"
+        android:layout_marginLeft="80dp"
+        android:inputType="textPersonName"
+
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relation"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+           />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black"
+            android:id="@+id/etRelation"
+            android:padding="5dp"
+            android:inputType="text"
+            />
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                   />
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="75dp"
+                    android:id="@+id/spGender"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+
+                    />
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birth Date"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+
+          />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etDOB"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+           />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/etMobile"
+            android:layout_marginLeft="80dp"
+            android:inputType="phone"
+            />
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                   />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:id="@+id/etEmail"
+                    android:layout_marginLeft="95dp"
+                    android:inputType="textEmailAddress"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Group"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:id="@+id/spBloodGroup"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Height"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:id="@+id/spHeight"
+                    android:hint="height in inches"
+                    android:textColorHint="#B8B8B8"
+
+                    android:layout_marginLeft="80dp"
+                    android:inputType="number"
+
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weight"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                   />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/etWeight"
+                    android:hint="weight in kg"
+                    android:textColorHint="#B8B8B8"
+                    android:inputType="number"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diabetes"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                   />
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="70dp"
+                    android:textColor="@color/black"
+
+                    android:id="@+id/spDiabetes"
+                    >
+
+                    </Spinner>
+
+
+
+            </LinearLayout>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Sugar level"
+                android:textColorHint="#B8B8B8"
+                android:id="@+id/etSugerLevel"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hypertension "
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                   />
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:id="@+id/spPressure"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+
+                    >
+                </Spinner>
+
+            </LinearLayout>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="enter blood pressure as : 90/120"
+                android:textColorHint="#B8B8B8"
+                android:id="@+id/etbloodPressure"
+                android:textColor="@color/black"
+                />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allergies"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/spAllergies"
+            android:layout_marginLeft="80dp"
+            android:textColor="@color/black"
+            >
+
+        </Spinner>
+
+
+    </LinearLayout>
+              <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                  android:textColorHint="#B8B8B8"
+                android:hint="type of allergies"
+                android:id="@+id/etAllergicalDescription"
+                  android:textColor="@color/black"/>
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="SAVE"
+    android:textSize="18sp"
+    android:layout_gravity="center"
+    android:layout_marginTop="2dp"
+    android:id="@+id/btSaveProfile"
+    android:onClick="saveProfile"
+    android:background="#990000"
+    android:textColor="#fff"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

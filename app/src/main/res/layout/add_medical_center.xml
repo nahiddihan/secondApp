@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Medical Center"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:background="@color/infocenter"
+        android:layout_marginBottom="20dp"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter medical center name"
+        android:id="@+id/etMedicalCenterName"
+        android:layout_marginLeft="25dp"
+        android:inputType="textPersonName"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter mobile"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/etMedicalCenterMobile"
+        android:layout_marginLeft="18dp"
+        android:inputType="phone"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter medical center email"
+        android:id="@+id/etMedicalCenterEmail"
+        android:layout_marginLeft="28dp"
+        android:inputType="textEmailAddress"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter medical center Address"
+        android:id="@+id/etMedicalCenterAddress"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:singleLine="false"
+        android:minLines="4"
+        android:gravity="start"
+        android:textAlignment="gravity"
+        />
+        </LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/infocenter"
+        android:textColor="@color/white"
+        android:text="Save"
+        android:textSize="20sp"
+        android:id="@+id/btNewMedicalCenterSave"
+        android:padding="10dp"/>
+</LinearLayout>

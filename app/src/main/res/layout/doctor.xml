@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="3"
+            android:text="Doctor Lists"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add New"
+            android:id="@+id/ivAddDoctor"
+            android:src="@drawable/addicon"
+            />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/doctorList"
+        android:layout_width="fill_parent"
+        android:divider="@color/black"
+        android:dividerHeight="3dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+    </ListView>
+
+
+
+</LinearLayout>

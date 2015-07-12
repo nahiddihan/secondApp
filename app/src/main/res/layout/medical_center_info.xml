@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Medical Center"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@color/infocenter"
+        android:textColor="#fff"
+        android:layout_marginBottom="20dp"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tvMedicalCenterName"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile :"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+
+        android:id="@+id/tvMedicalCenterMobile"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+
+        android:id="@+id/tvMedicalCenterEmail"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:id="@+id/tvMedicalCenterAddress"
+        android:singleLine="false"
+        android:minLines="4"
+        />
+        </LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Call  Health Center"
+
+        android:textSize="20sp"
+        android:background="@color/infocenter"
+        android:textColor="@color/white"
+        android:id="@+id/btMedicalCenterCall"
+
+        android:onClick="centerCall"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+
+        android:textSize="20sp"
+        android:background="@color/infocenter"
+        android:textColor="@color/white"
+        android:id="@+id/btMedicalCenterUpdate"
+        android:padding="10dp"
+        />
+</LinearLayout>
